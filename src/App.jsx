@@ -5,6 +5,7 @@ import Hero from './components/Hero.jsx'
 import TrustedBy from './components/TrustedBy.jsx';
 import Services from './components/Services.jsx';
 import OurWork from './components/OurWork.jsx';
+import OurTeam from './components/OurTeam.jsx';
 
 const App = () => {
     const [theme, setTheme] = useState(localStorage.getItem('theme') ?
@@ -16,7 +17,7 @@ const App = () => {
        <TrustedBy/>
        <Services/>
        <OurWork/>
-       
+       <OurTeam/>
     </div>
   )
 }
