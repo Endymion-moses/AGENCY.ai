@@ -20,4 +20,4 @@ const TrustedBy = () => {
   )
 }
 
-export default TrustedBy
+export default TrustedBy ;
