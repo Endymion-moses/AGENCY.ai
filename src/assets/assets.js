@@ -31,13 +31,13 @@ import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
 
 
-export const company_logos = [
+export const company_logos =[
   microsoft_logo,
   zoom_logo,
   rakuten_logo,
   coinbase_logo,
   airbnb_logo,
-  google_logo,
+  google_logo
 ]
 
 const assets = {
@@ -65,7 +65,13 @@ const assets = {
   logo_dark,
   menu_icon_dark,
   sun_icon,
-  moon_icon
+  moon_icon,
+  microsoft_logo,
+  rakuten_logo,
+  google_logo,
+  zoom_logo,
+  airbnb_logo,
+  coinbase_logo
 }
 
 export default assets
