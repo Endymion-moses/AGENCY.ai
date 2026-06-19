@@ -5,18 +5,25 @@ import Hero from './components/Hero.jsx'
 import TrustedBy from './components/TrustedBy.jsx';
 import Services from './components/Services.jsx';
 import OurWork from './components/OurWork.jsx';
+import OurTeam from './components/OurTeam.jsx';
+import ReachUs from './components/ReachUs.jsx';
+import {Toaster} from 'react-hot-toast';
+import Footer from './components/Footer.jsx';
 
 const App = () => {
     const [theme, setTheme] = useState(localStorage.getItem('theme') ?
     localStorage.getItem('theme') : "light")
   return (
     <div className='dark:bg-black relative'>
+      <Toaster/>
        < Navbar theme = {theme} setTheme={setTheme}/>
        <Hero/>
        <TrustedBy/>
        <Services/>
        <OurWork/>
-       
+       <OurTeam/>
+       <ReachUs/>
+       <Footer theme ={theme}/>
     </div>
   )
 }
